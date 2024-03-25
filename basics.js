@@ -27,3 +27,16 @@ score2 = true
 valueInNumber = Number(score2)
 console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
 
+let a = ""
+let bool = Boolean(a)
+console.log(bool)
+
+a = "nischal"
+bool = Boolean(a)
+console.log(bool)
+
+// 1 => true; 0 => false
+// "" => false; "nischal" => true
+
+
+
