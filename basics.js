@@ -38,5 +38,19 @@ console.log(bool)
 // 1 => true; 0 => false
 // "" => false; "nischal" => true
 
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof(stringNumber));
 
-
+// Operations ->
+// Includes simple mathematical operations such as addition, subtraction, multiplication, division, modulus, string and bitwise operations.
+// power operation -
+console.log(3**4);
+let str1 = "hello"
+let str2 = " world"
+console.log(str1 + str2);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(2 + 2 + "1");
