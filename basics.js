@@ -44,7 +44,7 @@ console.log(stringNumber);
 console.log(typeof(stringNumber));
 
 // Operations ->
-// Includes simple mathematical operations such as addition, subtraction, multiplication, division, modulus, string and bitwise operations.
+// Includes simple mathematical operations such as addition, subtraction, multiplication, division, modulus, string, bitwise operations, etc.
 // power operation -
 console.log(3**4);
 let str1 = "hello"
