@@ -68,9 +68,16 @@ console.log("2" === 2);  // "Strict Comparison" - In this both value and data ty
 console.log("2" == 2);   // Here String data type value converts into number.
 
 // Data Types (theory) ->
-// Data Types are classified on the basis of their "storage in memory" and "access".
+// Data Types are classified on the basis of their "memory allocation" and "access".
 // 1. Primitive
 // It includes : String, Number, Boolean, null, undefined, Symbol, BigInt.
 
 // 2. Non - Primitive(Reference)
 // Arrays, Objects, Functions
+
+let id = Symbol('123')
+let anotherId = Symbol('123')
+console.log();
+console.log(id === anotherId);
+
+let bigNumber = 2345654456788n
