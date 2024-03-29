@@ -58,3 +58,9 @@ console.log(2 + 2 + "1");
 let gameCounter = 100
 gameCounter++
 console.log(gameCounter);  // Increment Operator
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+// 
