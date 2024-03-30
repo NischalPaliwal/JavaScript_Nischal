@@ -81,3 +81,17 @@ console.log();
 console.log(id === anotherId);
 
 let bigNumber = 2345654456788n
+
+let myArr = [8,2,3,9,1]
+let myObj = {
+    name : "Nischal",
+    age : 18
+}
+console.log(typeof(bigNumber));
+console.log(typeof(myArr));
+console.log(typeof(myObj));
+
+console.log(myArr);
+console.log(myObj);
+
+
