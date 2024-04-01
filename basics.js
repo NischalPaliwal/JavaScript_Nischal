@@ -94,4 +94,6 @@ console.log(typeof(myObj));
 console.log(myArr);
 console.log(myObj);
 
+// Stack and Heap Memory ->
+
 
