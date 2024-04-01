@@ -107,3 +107,4 @@ console.log(myObj);
 // The engine doesn’t allocate a fixed amount of memory to Heap.
 // Instead, it allocates more space as required.
 
+
