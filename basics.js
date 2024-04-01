@@ -95,5 +95,15 @@ console.log(myArr);
 console.log(myObj);
 
 // Stack and Heap Memory ->
+// 1. Stack Memory
+// In JavaScript, primitive values like strings, numbers, boolean, null and undefined are stored in the stack.
+// References that points to objects and functions are also included in the stack.
+// It is a data structure used to store static data.
+// A fixed amount of memory is allocated for static data.
 
+
+// 2. Heap Memory
+// It is used to store objects and functions in JavaScript.
+// The engine doesn’t allocate a fixed amount of memory to Heap.
+// Instead, it allocates more space as required.
 
