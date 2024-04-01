@@ -108,3 +108,7 @@ console.log(myObj);
 // Instead, it allocates more space as required.
 
 
+let s1 = "I am a Software Developer"
+let s2 = new String("I work at Goldman Sachs")
+console.log(s1[5]);
+console.log(s2[5]);
