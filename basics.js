@@ -119,3 +119,7 @@ s1 = "Hello World"
 console.log(s3);
 console.log(s1);
 console.log(s2.toUpperCase());
+console.log(s2.charAt(4));
+console.log(s2.indexOf('r'));
+console.log(s2.substring(0,6));  // character at second index in the substring function is not printed.
+console.log(s2.slice(0,6));  // slice function also obeys negative values.
