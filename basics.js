@@ -127,4 +127,4 @@ console.log(s2.slice(0,6));  // slice function also obeys negative values.
 let s4 = "     hello     "
 console.log(s4);
 console.log(s4.trim());  // removes front and back spaces
-console.log(s4.replace())
+console.log(s4.replace("hello","hi"))
