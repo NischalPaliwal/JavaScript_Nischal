@@ -4,68 +4,68 @@ let accountMail = "nischal@gmail.com"
 let accountPassword = "23432"
 let accountCity = "Jaipur"
 // Printing Values ->
-console.log(accountId)
-console.log(accountMail)
-console.table([accountId,accountMail,accountPassword,accountCity])
+// console.log(accountId)
+// console.log(accountMail)
+// console.table([accountId,accountMail,accountPassword,accountCity])
 "use strict" // treat all JS code as newer version
 
 // Data Types and their Conversion ->
 let score1 = 33
 let score2 = "33abc"
 let valueInNumber = Number(score2)
-console.table([typeof(score1),typeof(score2),typeof(valueInNumber),valueInNumber])
+// console.table([typeof(score1),typeof(score2),typeof(valueInNumber),valueInNumber])
 
 score2 = null
 valueInNumber = Number(score2)
-console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
+// console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
 
 score2 = undefined
 valueInNumber = Number(score2)
-console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
+// console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
 
 score2 = true
 valueInNumber = Number(score2)
-console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
+// console.table([typeof(score2),typeof(valueInNumber),valueInNumber])
 
 let a = ""
 let bool = Boolean(a)
-console.log(bool)
+// console.log(bool)
 
 a = "nischal"
 bool = Boolean(a)
-console.log(bool)
+// console.log(bool)
 
 // 1 => true; 0 => false
 // "" => false; "nischal" => true
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
 
 // Operations ->
 // Includes simple mathematical operations such as addition, subtraction, multiplication, division, modulus, string, bitwise operations, etc.
 // power operation -
-console.log(3**4);
+// console.log(3**4);
 let str1 = "hello"
 let str2 = " world"
-console.log(str1 + str2);
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(2 + 2 + "1");
+// console.log(str1 + str2);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(2 + 2 + "1");
 
 let gameCounter = 100
 gameCounter++
-console.log(gameCounter);  // Increment Operator
+// console.log(gameCounter);  // Increment Operator
 
-console.log(null > 0);
-console.log(null == 0);
-console.log(null >= 0);
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
 
 // "===" Operator ->
-console.log("2" === 2);  // "Strict Comparison" - In this both value and data type of the operands is checked.
-console.log("2" == 2);   // Here String data type value converts into number.
+// console.log("2" === 2);  // "Strict Comparison" - In this both value and data type of the operands is checked.
+// console.log("2" == 2);   // Here String data type value converts into number.
 
 // Data Types (theory) ->
 // Data Types are classified on the basis of their "memory allocation" and "access".
@@ -77,8 +77,8 @@ console.log("2" == 2);   // Here String data type value converts into number.
 
 let id = Symbol('123')
 let anotherId = Symbol('123')
-console.log();
-console.log(id === anotherId);
+// console.log();
+// console.log(id === anotherId);
 
 let bigNumber = 2345654456788n
 
@@ -87,12 +87,12 @@ let myObj = {
     name : "Nischal",
     age : 18
 }
-console.log(typeof(bigNumber));
-console.log(typeof(myArr));
-console.log(typeof(myObj));
+// console.log(typeof(bigNumber));
+// console.log(typeof(myArr));
+// console.log(typeof(myObj));
 
-console.log(myArr);
-console.log(myObj);
+// console.log(myArr);
+// console.log(myObj);
 
 // Stack and Heap Memory ->
 // 1. Stack Memory
@@ -114,3 +114,5 @@ console.log(s1[5]);
 console.log(s2[5]);
 console.log(s1.length);
 console.log(s2.length);
+let s3 = s1
+s1 = "Hello World"
