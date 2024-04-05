@@ -110,9 +110,12 @@ let myObj = {
 
 let s1 = "I am a Software Developer"
 let s2 = new String("I work at Goldman Sachs")
-console.log(s1[5]);
-console.log(s2[5]);
-console.log(s1.length);
-console.log(s2.length);
+// console.log(s1[5]);
+// console.log(s2[5]);
+// console.log(s1.length);
+// console.log(s2.length);
 let s3 = s1
 s1 = "Hello World"
+console.log(s3);
+console.log(s1);
+console.log(s2.toUpperCase());
