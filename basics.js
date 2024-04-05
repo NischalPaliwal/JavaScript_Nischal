@@ -112,3 +112,5 @@ let s1 = "I am a Software Developer"
 let s2 = new String("I work at Goldman Sachs")
 console.log(s1[5]);
 console.log(s2[5]);
+console.log(s1.length);
+console.log(s2.length);
