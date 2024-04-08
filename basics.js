@@ -124,7 +124,8 @@ console.log(s2.indexOf('r'));
 console.log(s2.substring(0,6));  // character at second index in the substring function is not printed.
 console.log(s2.slice(0,6));  // slice function also obeys negative values.
 
-let s4 = "     hello     "
+let s4 = "     hello world     "
 console.log(s4);
 console.log(s4.trim());  // removes front and back spaces
-console.log(s4.replace("hello","hi"))
+console.log(s4.replace("hello","hi"));
+console.log(s4.includes("world"));
