@@ -133,4 +133,7 @@ console.log(s4.includes("world"));
 console.log(s1.split(" "));  // splits the string with respect to a reference into an array of substrings of that string.
 
 // Placeholders in JavaScript ->
-// In JavaScript, ${} is used as a placeholder.
+// In JavaScript, ${} is used as a placeholder. And all the content to be printed should be confined in " ` " symbols.
+let place_num = 18
+let place_string = "Nischal"
+console.log(`My name is ${place_string} and I am ${place_num} years old.`);
