@@ -8,3 +8,7 @@ console.log(balance.toString());
 console.log(balance.toString().length);
 
 console.log(balance.toFixed(2));   // Imp.
+
+const otherNumber = 234.8567
+console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(4));
