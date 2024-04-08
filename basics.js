@@ -129,3 +129,8 @@ console.log(s4);
 console.log(s4.trim());  // removes front and back spaces
 console.log(s4.replace("hello","hi"));
 console.log(s4.includes("world"));
+
+console.log(s1.split(" "));  // splits the string with respect to a reference into an array of substrings of that string.
+
+// Placeholders in JavaScript ->
+// In JavaScript, ${} is used as a placeholder.
