@@ -28,3 +28,8 @@ const hundreds = 1000000
 console.log(Math.random());  // gives a random value between 0 and 1
 console.log((Math.random()*10) + 1);
 
+// Dates ->
+let myDate = new Date()
+console.log(myDate);
+console.log(myDate.toString());
+console.log(myDate.toDateString());   // returns date in the form of a string value.
