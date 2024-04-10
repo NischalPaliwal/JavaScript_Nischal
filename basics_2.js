@@ -17,10 +17,11 @@ const hundreds = 1000000
 //console.log(hundreds.toLocaleString('en-IN'));   // 10,00,000
 
 // Maths in JavaScript ->
-console.log(Math.PI);
-console.log(Math.abs(-5));
-console.log(Math.round(5.768));
-console.log(Math.ceil(5.768));
-console.log(Math.floor(5.768));
-console.log(Math.min(4, 5, 6, 7, 8));
-console.log(Math.max(4, 5, 6, 7, 8));
+// console.log(Math.PI);
+// console.log(Math.abs(-5));
+// console.log(Math.round(5.768));
+// console.log(Math.ceil(5.768));
+// console.log(Math.floor(5.768));
+// console.log(Math.min(4, 5, 6, 7, 8));
+// console.log(Math.max(4, 5, 6, 7, 8));
+
