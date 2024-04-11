@@ -35,3 +35,12 @@ console.log(myDate.toString());
 console.log(myDate.toDateString());   // returns date in the form of a string value
 console.log(myDate.toLocaleString());  // returns both date and time
 console.log(typeof(myDate));
+
+let myCreatedDate = new Date(2024, 5, 3, 6, 0)
+console.log(myCreatedDate.toString());
+console.log(myCreatedDate.toLocaleString());
+
+// Time ->
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
