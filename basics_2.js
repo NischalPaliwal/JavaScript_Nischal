@@ -61,5 +61,9 @@ myArr.push(67)
 myArr.pop()  // deletes the last element of the array
 // console.log(myArr.unshift(12));  // Inserts new elements at the start of an array, and returns the new length of the array.
 myArr.unshift(12)
-myArr.shift();  // Removes the first element from an array and returns it.
+myArr.shift()  // Removes the first element from an array and returns it.
 console.log(myArr);
+
+const newArr = myArr.join()  // Adds all the elements of an array into a string.
+console.log(newArr);
+console.log(typeof(newArr));
