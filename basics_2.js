@@ -32,4 +32,6 @@ console.log((Math.random()*10) + 1);
 let myDate = new Date()
 console.log(myDate);
 console.log(myDate.toString());
-console.log(myDate.toDateString());   // returns date in the form of a string value.
+console.log(myDate.toDateString());   // returns date in the form of a string value
+console.log(myDate.toLocaleString());  // returns both date and time
+console.log(typeof(myDate));
