@@ -25,22 +25,30 @@ const hundreds = 1000000
 // console.log(Math.min(4, 5, 6, 7, 8));
 // console.log(Math.max(4, 5, 6, 7, 8));
 
-console.log(Math.random());  // gives a random value between 0 and 1
-console.log((Math.random()*10) + 1);
+// console.log(Math.random());  // gives a random value between 0 and 1
+// console.log((Math.random()*10) + 1);
 
-// Dates ->
+// Dates and Time ->
 let myDate = new Date()
-console.log(myDate);
-console.log(myDate.toString());
-console.log(myDate.toDateString());   // returns date in the form of a string value
-console.log(myDate.toLocaleString());  // returns both date and time
-console.log(typeof(myDate));
+// console.log(myDate);
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());   // returns date in the form of a string value
+// console.log(myDate.toLocaleString());  // returns both date and time
+// console.log(typeof(myDate));
 
 let myCreatedDate = new Date(2024, 5, 3, 6, 0)
 console.log(myCreatedDate.toString());
 console.log(myCreatedDate.toLocaleString());
 
-// Time ->
+
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);
+console.log(myTimeStamp);   // in milli seconds
+console.log(Math.floor(Date.now() / 1000));  // in seconds
 console.log(myCreatedDate.getTime());
+console.log();
+
+let newDate = new Date()
+console.log(newDate.getDate());
+console.log(newDate.getDay());
+console.log(newDate.getMonth());
+console.log(newDate.getFullYear());
