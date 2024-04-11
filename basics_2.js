@@ -37,18 +37,21 @@ let myDate = new Date()
 // console.log(typeof(myDate));
 
 let myCreatedDate = new Date(2024, 5, 3, 6, 0)
-console.log(myCreatedDate.toString());
-console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toString());
+// console.log(myCreatedDate.toLocaleString());
 
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);   // in milli seconds
-console.log(Math.floor(Date.now() / 1000));  // in seconds
-console.log(myCreatedDate.getTime());
-console.log();
+// console.log(myTimeStamp);   // in milli seconds
+// console.log(Math.floor(Date.now() / 1000));  // in seconds
+// console.log(myCreatedDate.getTime());
+// console.log();
 
 let newDate = new Date()
-console.log(newDate.getDate());
-console.log(newDate.getDay());
-console.log(newDate.getMonth());
-console.log(newDate.getFullYear());
+// console.log(newDate.getDate());
+// console.log(newDate.getDay());
+// console.log(newDate.getMonth());
+// console.log(newDate.getFullYear());
+
+// Arrays ->
+// Arrays in JavaScript are resizeable and can contain a mix of different data types.
