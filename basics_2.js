@@ -59,4 +59,7 @@ const myArr = [1, 2, 3, 4, 5]
 myArr.push(6)  // adds new element to the array
 myArr.push(67)
 myArr.pop()  // deletes the last element of the array
+// console.log(myArr.unshift(12));  // Inserts new elements at the start of an array, and returns the new length of the array.
+myArr.unshift(12)
+myArr.shift();  // Removes the first element from an array and returns it.
 console.log(myArr);
