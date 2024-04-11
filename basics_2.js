@@ -55,3 +55,8 @@ let newDate = new Date()
 
 // Arrays ->
 // Arrays in JavaScript are resizeable and can contain a mix of different data types.
+const myArr = [1, 2, 3, 4, 5]
+myArr.push(6)  // adds new element to the array
+myArr.push(67)
+myArr.pop()  // deletes the last element of the array
+console.log(myArr);
