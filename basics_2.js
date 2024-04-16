@@ -84,3 +84,6 @@ const dc_heroes = ["superman", "flash", "batman"]
 
 marvel_heroes.push(dc_heroes) // Array "dc_heroes" is included as a single unit into the array "marvel_heroes".
 console.log(marvel_heroes);
+
+console.log(marvel_heroes[3]);
+console.log(marvel_heroes[3][1]);
