@@ -69,21 +69,25 @@ const newArr = myArr.join()  // Adds all the elements of an array into a string.
 // console.log(typeof(newArr));
 
 // Slice and Splice methods in Arrays ->
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
 const myn1 = myArr.slice(1,4)  // does not include upper range
-console.log(myn1);
-console.log("B ", myArr);
+// console.log(myn1);
+// console.log("B ", myArr);
 
 const myn2 = myArr.splice(1,4)  // includes the upper range  // mutates the original array
-console.log(myn2);
-console.log("C ", myArr);
+// console.log(myn2);
+// console.log("C ", myArr);
 
 const marvel_heroes = ["thor", "ironman", "spiderman"]
 const dc_heroes = ["superman", "flash", "batman"]
 
-marvel_heroes.push(dc_heroes) // Array "dc_heroes" is included as a single unit into the array "marvel_heroes".
-console.log(marvel_heroes);
+// marvel_heroes.push(dc_heroes) // Array "dc_heroes" is included as a single unit into the array "marvel_heroes".
+// console.log(marvel_heroes);
 
-console.log(marvel_heroes[3]);
-console.log(marvel_heroes[3][1]);
+// console.log(marvel_heroes[3]);
+// console.log(marvel_heroes[3][1]);
+ 
+console.log(marvel_heroes.concat(dc_heroes));
+const all_heroes = [...marvel_heroes, ...dc_heroes]
+console.log(all_heroes);
