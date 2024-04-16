@@ -56,14 +56,25 @@ let newDate = new Date()
 // Arrays ->
 // Arrays in JavaScript are resizeable and can contain a mix of different data types.
 const myArr = [1, 2, 3, 4, 5]
-myArr.push(6)  // adds new element to the array
-myArr.push(67)
-myArr.pop()  // deletes the last element of the array
+// myArr.push(6)  // adds new element to the array
+// myArr.push(67)
+// myArr.pop()  // deletes the last element of the array
 // console.log(myArr.unshift(12));  // Inserts new elements at the start of an array, and returns the new length of the array.
-myArr.unshift(12)
-myArr.shift()  // Removes the first element from an array and returns it.
-console.log(myArr);
+// myArr.unshift(12)
+// myArr.shift()  // Removes the first element from an array and returns it.
+// console.log(myArr);
 
 const newArr = myArr.join()  // Adds all the elements of an array into a string.
-console.log(newArr);
-console.log(typeof(newArr));
+// console.log(newArr);
+// console.log(typeof(newArr));
+
+// Slice and Splice methods in Arrays ->
+console.log("A ", myArr);
+
+const myn1 = myArr.slice(1,4)  // does not include upper range
+console.log(myn1);
+console.log("B ", myArr);
+
+const myn2 = myArr.splice(1,4)  // includes the upper range  // mutates the original array
+console.log(myn2);
+console.log("C ", myArr);
