@@ -78,3 +78,9 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1,4)  // includes the upper range  // mutates the original array
 console.log(myn2);
 console.log("C ", myArr);
+
+const marvel_heroes = ["thor", "ironman", "spiderman"]
+const dc_heroes = ["superman", "flash", "batman"]
+
+marvel_heroes.push(dc_heroes) // Array "dc_heroes" is included as a single unit into the array "marvel_heroes".
+console.log(marvel_heroes);
