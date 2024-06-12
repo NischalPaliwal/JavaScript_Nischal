@@ -55,3 +55,14 @@ function displayResultPassive(d) {
     console.log("This operation's result is " + d + ".");
 }
 sum(45,67, displayResultPassive);
+
+// JavaScript Callbacks ->
+// A callback is a function passed as an argument to another function, which gets invoked after the main function completes its execution.
+function callback(a, b, callbackFunction) {
+    let value = a * b;
+    callbackFunction(value);
+}
+function show(arg) {
+    console.log(arg);
+}
+callback(3, 2, show);
