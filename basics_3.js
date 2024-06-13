@@ -66,3 +66,6 @@ function show(arg) {
     console.log(arg);
 }
 callback(3, 2, show);
+
+// SetTimeOut Function ->
+// It's a global function in JavaScript which gets called after a certain interval of time as specified by the user.
