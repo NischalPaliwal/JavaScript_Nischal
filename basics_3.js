@@ -39,7 +39,7 @@ for (let i = 0; i < arr.length; i++) {
        reference = arr[i + 1]; 
     }
     else {
-       console.log(reference);
+    //   console.log(reference);
     }
 }
 
@@ -54,7 +54,7 @@ function displayResult(c) {
 function displayResultPassive(d) {
     console.log("This operation's result is " + d + ".");
 }
-sum(45,67, displayResultPassive);
+// sum(45,67, displayResultPassive);
 
 // JavaScript Callbacks ->
 // A callback is a function passed as an argument to another function, which gets invoked after the main function completes its execution.
@@ -65,7 +65,14 @@ function callback(a, b, callbackFunction) {
 function show(arg) {
     console.log(arg);
 }
-callback(3, 2, show);
+// callback(3, 2, show);
 
-// SetTimeOut Function ->
+// setTimeout Function ->
 // It's a global function in JavaScript which gets called after a certain interval of time as specified by the user.
+function greet() {
+    console.log("Hello Everyone!!");
+}
+setTimeout(greet, 5 * 1000);
+
+// setInterval Function ->
+setInterval(greet, 2 * 1000);
