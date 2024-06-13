@@ -72,7 +72,15 @@ function show(arg) {
 function greet() {
     console.log("Hello Everyone!!");
 }
-setTimeout(greet, 5 * 1000);
+// setTimeout(greet, 5 * 1000);
 
 // setInterval Function ->
-setInterval(greet, 2 * 1000);
+// setInterval(greet, 2 * 1000);
+
+// String Functions ->
+// 1. Length
+    function getLength(str) {
+     console.log("Original String:", str);
+     console.log("Length:", str.length);
+   }
+    getLength("Hello World");
