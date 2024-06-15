@@ -16,8 +16,15 @@ const arr_1 = [1, 2, 3]
 arr_1.push(4);  // used to push/include something in the array
 console.log(arr_1);
 
-const arr_2 = [11,12,13,14]
+const arr_2 = [11, 12, 13, 14]
 arr_2.pop();  // last one out
 console.log(arr_2);
-arr_2.shift();
+arr_2.shift();  // first one out
 console.log(arr_2);
+arr_2.unshift(11);  // add from the front
+console.log(arr_2);
+
+const initial_Array = [1, 2, 3, 4]
+const final_Array = [5, 6, 7, 8]
+console.log(initial_Array.concat(final_Array));  // concatenation of two arrays
+
