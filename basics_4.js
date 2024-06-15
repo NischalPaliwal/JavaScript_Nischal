@@ -28,3 +28,8 @@ const initial_Array = [1, 2, 3, 4]
 const final_Array = [5, 6, 7, 8]
 console.log(initial_Array.concat(final_Array));  // concatenation of two arrays
 
+function printEach(ptr) {
+console.log(ptr);
+}
+initial_Array.forEach(printEach);   // calls a certain function for each value/element of the array | callbacks
+
