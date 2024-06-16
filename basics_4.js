@@ -74,3 +74,11 @@ Building.secure();   // class function
 
 // Dates ->
 const currentDate = new Date();
+console.log(currentDate);
+console.log(currentDate.getDate());
+console.log(currentDate.getMonth() + 1);
+console.log(currentDate.getFullYear());
+currentDate.setDate(23);
+currentDate.setMonth(3);
+currentDate.setFullYear(2025);
+console.log(currentDate);
