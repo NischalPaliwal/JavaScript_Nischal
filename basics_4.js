@@ -76,9 +76,13 @@ Building.secure();   // class function
 const currentDate = new Date();
 console.log(currentDate);
 console.log(currentDate.getDate());
-console.log(currentDate.getMonth() + 1);
+console.log(currentDate.getMonth() + 1);    // +1
 console.log(currentDate.getFullYear());
-currentDate.setDate(23);
-currentDate.setMonth(3);
-currentDate.setFullYear(2025);
-console.log(currentDate);
+// currentDate.setDate(23);
+// currentDate.setMonth(3);      // +1
+// currentDate.setFullYear(2025);
+// console.log(currentDate);
+
+console.log("Time in milliseconds since 1970: " + currentDate.getTime());     // epoch timestamp
+
+// JSON (JavaScript Object Notation) ->
