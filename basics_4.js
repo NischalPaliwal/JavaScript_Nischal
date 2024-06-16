@@ -13,7 +13,7 @@ console.log(parseFloat("4.645"));
 // Array Functions ->
 // 1. push
 const arr_1 = [1, 2, 3]
-arr_1.push(4);  // used to push/include something in the array
+arr_1.push(4);  // used to push/include something in the array(from back)
 console.log(arr_1);
 
 const arr_2 = [11, 12, 13, 14]
@@ -33,3 +33,37 @@ console.log(ptr);
 }
 initial_Array.forEach(printEach);   // calls a certain function for each value/element of the array | callbacks
 
+// similar objects without the use of class
+const dog = {
+    name: "dog",
+    legsCount: 4,
+    speak: "barks"
+}
+
+const cat = {
+    name: "cat",
+    legsCount: 4,
+    speak: "meows"
+}
+
+function printf(animal) {
+    console.log(animal.name + " has " + animal.legsCount + " legs and it " + animal.speak);
+}
+printf(dog);
+printf(cat);
+
+// now using the concept of class
+class Building {
+    constructor(color, height, floor) {
+     this.color = color;
+     this.height = height;
+     this.floor = floor;
+    }
+    demo() {
+        console.log("This beautiful building of " + this.color + " color and height " + this.height + "m has around " + this.floor + " floors.");
+    }
+}
+let ananta = new Building("white", 100, 12);
+let lodha = new Building("yellow", 140, 23);
+ananta.demo();
+lodha.demo();
