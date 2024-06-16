@@ -59,11 +59,18 @@ class Building {
      this.height = height;
      this.floor = floor;
     }
-    demo() {
+    static secure() {         // this function can be called by its class
+        console.log("Safety should be ensured!");
+    }
+    demo() {       // this function can be called/accessed by the object of its class
         console.log("This beautiful building of " + this.color + " color and height " + this.height + "m has around " + this.floor + " floors.");
     }
 }
-let ananta = new Building("white", 100, 12);
-let lodha = new Building("yellow", 140, 23);
-ananta.demo();
-lodha.demo();
+let ananta = new Building("white", 100, 12);   // object of class Building
+let lodha = new Building("yellow", 140, 23);   // object of class Building
+ananta.demo();       // object function
+lodha.demo();        // object function
+Building.secure();   // class function
+
+// Dates ->
+const currentDate = new Date();
