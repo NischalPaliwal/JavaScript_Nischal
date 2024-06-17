@@ -85,4 +85,21 @@ console.log(currentDate.getFullYear());
 
 console.log("Time in milliseconds since 1970: " + currentDate.getTime());     // epoch timestamp
 
+// Calculating the running time of a program ->
+const before_Date = new Date();
+const before_Time = before_Date.getTime(); 
+
+let initial_Value = 0;
+for (let i = 0; i < 1000000000; i++) {
+    initial_Value += i;
+}
+
+const after_Date = new Date();
+const after_Time = after_Date.getTime(); 
+
+console.log(after_Time - before_Time);
+
 // JSON (JavaScript Object Notation) ->
+// JSON.parse
+// JSON.stringify
+
