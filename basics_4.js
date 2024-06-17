@@ -119,5 +119,24 @@ console.log(final_Object);
 console.log(Math.random());    // gives a random value between 0 and 1
 console.log(Math.floor(3.456));  // 3  // gives the biggest number smaller than a float value
 console.log(Math.ceil(3.456));   // 4  // gives the smallest number greater than a float value
+console.log(Math.max(12, 23, 65));
+console.log(Math.min(1, 2, 3));
+console.log(Math.pow(2, 3));
+console.log(Math.sqrt(121));
 
 // Object Functions ->
+const sampleObject = {
+    key1: "value1",
+    key2: "value2",
+    key3: "value3",
+  };
+let keys = Object.keys(sampleObject);
+console.log(keys);
+let values = Object.values(sampleObject);
+console.log(values);
+let entries = Object.entries(sampleObject);
+console.log(entries);
+let hasProp = sampleObject.hasOwnProperty("key2");
+console.log(hasProp);
+let new_Obj = Object.assign({}, sampleObject, {key4: "value4"});
+console.log(new_Obj);
