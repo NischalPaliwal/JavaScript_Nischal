@@ -140,3 +140,24 @@ let hasProp = sampleObject.hasOwnProperty("key2");
 console.log(hasProp);
 let new_Obj = Object.assign({}, sampleObject, {key4: "value4"});
 console.log(new_Obj);
+
+// Anonymous Functions in JavaScript ->
+// It is a function that does not have any name associated with it.
+// In anonymous functions in JavaScript, we use only the function keyword without the function name.
+// It can only be stored in a variable as a value.
+
+const greet = function() {
+    console.log("Welcome to my city!");
+}
+greet();
+
+// Using anonymous function with callbacks ->
+function operation(x, y, fn) {
+    let val1 = fn(x);
+    let val2 = fn(y);
+    return val1 + val2;
+}
+const soln = operation(4, 5, function(n) {
+    return n * n;
+});
+console.log(soln);
