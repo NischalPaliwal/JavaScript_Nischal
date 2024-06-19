@@ -172,5 +172,5 @@ for(let i = 0; i < 100; i++) {
 }
 return ans;
 }
-// setTimeout(Sum, 3 * 1000);      // When using 'setTimeout function', the function to be called should not contain the parameters.
+setTimeout(Sum, 3 * 1000);      // When using 'setTimeout function', the function to be called should not contain the parameters.
 console.log("Hello World");
