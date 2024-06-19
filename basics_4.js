@@ -161,3 +161,16 @@ const soln = operation(4, 5, function(n) {
     return n * n;
 });
 console.log(soln);
+
+// Synchronous and Asynchronous functions in JS ->
+// Asynchronous fs methods do not block the event loop and handle multiple operations simultaneously.
+// While Synchronous fs methods block the event loop until the operation completes.
+function Sum() {
+let ans = 0;
+for(let i = 0; i < 100; i++) {
+    ans += i;
+}
+return ans;
+}
+// setTimeout(Sum, 3 * 1000);      // When using 'setTimeout function', the function to be called should not contain the parameters.
+console.log("Hello World");
