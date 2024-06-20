@@ -21,3 +21,19 @@ function onDone(data) {
 }
 
 nischalReadFile().then(onDone);
+
+// Async await ->
+function nischalAsyncFunction() {
+    return new Promise(function(resolve) {
+        setTimeout(function() {
+            resolve("hi there!");
+        }, 2000);
+    })
+}
+
+async function main() {
+  // no callbacks, no .then syntax
+let value = await nischalReadFile();
+console.log(value);
+}
+main();
