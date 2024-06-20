@@ -4,6 +4,9 @@ fs.readFile("a.txt", "utf-8", function(err, data) {
     console.log(data);
 })
 
+// Promises ->
+// It is just a class that makes callbacks and async functions slightly more readable.
+// When we create it, we need to pass in a function as the first argument which has resolve as the first argument.
 function nischalReadFile() {
     return new Promise( function(resolve) {
      fs.readFile("a.txt", "utf-8", function(err, data) {
