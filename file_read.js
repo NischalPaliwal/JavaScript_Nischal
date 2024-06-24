@@ -37,3 +37,13 @@ let value = await nischalReadFile();
 console.log(value);
 }
 main();
+
+const p = new Promise(function() {
+    setTimeout(product, 2000);
+});
+
+function product(nums) {
+    const sol1 = nums * nums;
+    const sol2 = sol1 * nums;
+}
+p.then(product(3));
