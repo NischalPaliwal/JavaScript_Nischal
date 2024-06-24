@@ -27,7 +27,7 @@ function nischalAsyncFunction() {
     return new Promise(function(resolve) {
         setTimeout(function() {
             resolve("hi there!");
-        }, 2000);
+        }, 4000);
     })
 }
 
