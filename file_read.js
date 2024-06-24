@@ -45,5 +45,6 @@ const p = new Promise(function() {
 function product(nums) {
     const sol1 = nums * nums;
     const sol2 = sol1 * nums;
+    console.log(sol2);
 }
 p.then(product(3));
