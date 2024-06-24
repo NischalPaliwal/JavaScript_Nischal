@@ -33,7 +33,7 @@ function nischalAsyncFunction() {
 
 async function main() {
   // no callbacks, no .then syntax
-let value = await nischalReadFile();
+let value = await nischalAsyncFunction();
 console.log(value);
 }
 main();
